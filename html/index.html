@@ -6,11 +6,35 @@
     <title>Заводской цех</title>
     <link rel="stylesheet" href="/css/css.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1 style="font-family: Merriweather;">Заводской цех</h1>
     <form id="factoryForm">
-        
+        <label for="name">Название цеха:</label>
+        <input type="text" id="name" placeholder="Название цеха"><br>
+
+        <label for="product">Продукт:</label>
+        <input type="text" id="product" placeholder="Продукт"><br>
+
+        <label for="email">Почта:</label>
+        <input type="text" id="email" placeholder="Почта"><br>
+
+        <label for="employees">Количество сотрудников:</label>
+        <input type="number" id="employees" placeholder="Количество сотрудников"><br>
+
+        <button type="button" id="submitData">Ввести данные</button>
+        <button type="button" id="clearForm">Очистить форму</button>
+        <input type="number" id="id" placeholder="ID записи">
+        <button type="button" id="deleteRecord">Удалить запись</button>
+        <button type="button" id="showAll">Показать все данные</button>
+        <input type="number" id="showid" placeholder="ID записи">
+        <button type="button" id="showRecord">Показать запись</button>
+    </form>
+    <script src="/template/template.js"></script>
+    <script src="/js/js.js"></script>
+    <div id="output" class="output"></div>
+</body>
+</html>
