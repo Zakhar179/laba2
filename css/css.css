@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffffff, #000000);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+input {
+    border: 1px solid #000;
+    padding: 8px;
+    color: #000;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+input:focus {
+    background-color: #e0e0e0;
+    color: #000;
+}
+button {
+    margin-right: 10px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #727272;
+    color: #000;
+}
+
+.output {
+    margin-top: 20px;
+}
+label {
+    font-family: "Source Code Pro", monospace;
+}
+button{
+    font-family: "Lora", serif;
+}
+#employees{
+    width: 170px;
+}
